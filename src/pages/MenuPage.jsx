@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { menuData, categories } from '../data/menuData'
 import { useCart } from '../context/CartContext'
 import { menuImages } from '../assets/images/menuImages'
-import bannerPaneerFriedRice from '../assets/images/banners/Banner_Paneer_fired_Rice.png'
-import bannerKurkureMomos    from '../assets/images/banners/Banner_Kurkure_Momos.png'
-import bannerSchezwanNoodles from '../assets/images/banners/Banner_Schezwan_noodles.png'
+import bannerPaneerFriedRice from '../assets/images/banners/New_Banner_Paneer_fired_Rice.png'
+import bannerKurkureMomos    from '../assets/images/banners/New_Banner_Kurkure_Momos.png'
+import bannerSchezwanNoodles from '../assets/images/banners/New_Banner_Schezwan_noodles.png'
 
 const C = {
   cream:  '#F7F5F0',
@@ -385,7 +385,7 @@ export default function MenuPage() {
                   style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
                 />
                 {/* left gradient overlay for text readability */}
-                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(90deg,rgba(255,255,255,0.92) 0%,rgba(255,255,255,0.65) 52%,rgba(255,255,255,0) 100%)' }}/>
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(90deg,rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.40) 42%,rgba(255,255,255,0) 65%)' }}/>
 
                 {/* blob accent */}
                 <div style={{ position: 'absolute', right: -20, top: -20, width: 160, height: 160, background: banner.blobColor, borderRadius: '60% 40% 55% 45%', opacity: 0.25 }}/>
